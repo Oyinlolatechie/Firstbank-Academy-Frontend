@@ -21,7 +21,7 @@ const NavBar = () => {
         <div className="flex">
           <div className="flex border-[1px] border-[#002855B2] rounded-[20px] w-[234px] h-[40px] px-2 mr-[43px]">
             <div className="w-[26px] pt-[10px] pr-2">
-              <img className="w-full" src={searchIcon} alt="" />
+              <img className="w-full" src={searchIcon} alt="search icon" />
             </div>
             <form action="/search" method="GET">
               <input
