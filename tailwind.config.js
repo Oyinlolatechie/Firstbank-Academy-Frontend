@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import defaultTheme from "tailwindcss/defaultTheme";
+
 export default {
   content: [
     "./index.html",
@@ -7,7 +9,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Gilroy', 'sans-serif']
+        sans: ['Gilroy', ...defaultTheme.fontFamily.sans],
+      },
+
+      colors: {
+        primary: "#003B65",
+        h2bg: "#162D4C",
+        pbg: "#000000AD",
+        btnbg: "#F0BC26"
+
       }
     },
   },

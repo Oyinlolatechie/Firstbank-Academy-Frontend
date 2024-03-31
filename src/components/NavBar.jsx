@@ -4,13 +4,13 @@ import searchIcon from "../assets/search.svg";
 const NavBar = () => {
   return (
     <>
-      <div className="h-[61px] bg-[#003B65]"></div>
+      <div className="h-[61px] bg-primary"></div>
 
       <div className="w-full flex px-[100px] h-[100px] place-items-center">
         <div className="w-[105px] mr-[110px]">
           <img className="w-full" src={firstBankLogo} alt="firstbank logo" />
         </div>
-        <ul className="flex w-[30%] h-fit justify-between mr-[298px] font-medium text-[#003B65]">
+        <ul className="flex w-[30%] h-fit justify-between mr-[298px] font-medium text-primary">
           <li>Home</li>
           <li>About Us</li>
           <li>Tracks</li>
@@ -34,7 +34,7 @@ const NavBar = () => {
             </form>
           </div>
 
-          <button className="w-[95px] h-[40px] bg-[#F0BC26] rounded-[20px] font-[600] text-[#003B65]">
+          <button className="w-[95px] h-[40px] bg-btnbg rounded-[20px] font-[600] text-primary">
             Login
           </button>
         </div>
