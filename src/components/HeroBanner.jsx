@@ -1,4 +1,5 @@
 import heroVector from "../assets/heroVector.svg";
+import Button from "./ui/Button";
 
 const HeroBanner = () => {
   return (
@@ -14,9 +15,7 @@ const HeroBanner = () => {
             tech skills, cross-skilling, and hands-on learning, ensuring a
             continuous pipeline of passionate talent in Nigeria.
           </p>
-          <button className=" bg-btnbg w-[133px] h-[40px] rounded-[20px]">
-            Explore
-          </button>
+          <Button btnText={"Explore"} />
         </div>
 
         <div>
