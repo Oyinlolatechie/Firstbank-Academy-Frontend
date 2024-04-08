@@ -6,7 +6,7 @@ const NavBar = () => {
     <>
       <div className="h-[61px] bg-primary"></div>
 
-      <div className="w-full flex px-[100px] h-[100px] place-items-center">
+      <div className="w-full border-b-2 border-[#0000003B] bg-[#FFFFFF] flex px-[100px] h-[100px] place-items-center">
         <div className="w-[105px] mr-[110px]">
           <img className="w-full" src={firstBankLogo} alt="firstbank logo" />
         </div>
