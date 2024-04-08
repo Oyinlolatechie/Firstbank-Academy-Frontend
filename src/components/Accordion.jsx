@@ -17,7 +17,7 @@ const Accordion = () => {
                 ? 'grid-rows-[1fr] opacity-100 py-4'
                 : 'grid-rows-[0fr] opacity-0'
             }`}>
-                <div className="overflow-hidden">This is the answer</div>
+                <div className="overflow-hidden text-lg leading-7 font-normal">This is the answer</div>
             </div>
         </div>
             
