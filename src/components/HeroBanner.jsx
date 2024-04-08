@@ -1,4 +1,4 @@
-import heroVector from "../assets/heroVector.svg";
+import heroVector from "../assets/heroVector.png";
 import Button from "./ui/Button";
 
 const HeroBanner = () => {

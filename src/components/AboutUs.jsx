@@ -1,5 +1,5 @@
 import Button from "./ui/Button";
-import firstbank from "../assets/firstbank-building.svg";
+import firstbank from "../assets/firstbank-building.png";
 
 const AboutUs = () => {
   return (
