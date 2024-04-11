@@ -3,6 +3,7 @@ import AboutUs from "../../components/AboutUs";
 import FAQ from "../../components/FAQ";
 import TrackSection from "../../components/TrackSection";
 import Attendance from "../../components/Attendance";
+import Housing from "../../components/Housing";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <AboutUs />
       <TrackSection />
       <Attendance />
+      <Housing />
       <FAQ />
     </>
   );
