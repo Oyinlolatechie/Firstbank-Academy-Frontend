@@ -1,4 +1,4 @@
-import HousingBtn from "./ui/HousingBtn";
+// import HousingBtn from "./ui/HousingBtn";
 import HousingCard from "./ui/HousingCard";
 import hotelImage1 from "../assets/hotel-image-01.png";
 import hotelImage2 from "../assets/hotel-image-02.png";

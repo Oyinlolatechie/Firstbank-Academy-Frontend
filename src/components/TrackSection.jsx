@@ -8,7 +8,7 @@ import infra from "../assets/infrastructure.png";
 const TrackSection = () => {
   return (
     <>
-      <div className="py-[100px] px-[12%]">
+      <div id="tracks" className="py-[100px] px-[12%]">
         <h2 className="text-[48px] text-center font-bold w-[700px] mx-auto text-primary">
           Learn in-demand skills from the Academy
         </h2>

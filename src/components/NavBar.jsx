@@ -3,6 +3,10 @@ import searchIcon from "../assets/search.svg";
 import Button from "../components/ui/Button";
 
 const NavBar = () => {
+  const aboutRef = document.querySelector("#aboutUs");
+  const homeRef = document.querySelector("#hero");
+  const trackRef = document.querySelector("#tracks");
+  const faqRef = document.querySelector("#faq");
   return (
     <>
       <div className="h-[61px] bg-primary"></div>
@@ -12,11 +16,45 @@ const NavBar = () => {
           <img className="w-full" src={firstBankLogo} alt="firstbank logo" />
         </div>
         <ul className="flex w-[30%] h-fit justify-between mr-[298px] font-medium text-primary">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Tracks</li>
-          <li>Gallery</li>
-          <li>FAQs</li>
+          <li>
+            <button
+              onClick={() => {
+                homeRef.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Home
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                aboutRef.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              About Us
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                trackRef.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Tracks
+            </button>
+          </li>
+          <li>
+            <a href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                faqRef.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              FAQs
+            </button>
+          </li>
         </ul>
 
         <div className="flex">
