@@ -2,16 +2,17 @@
 const HousingBtn = ({
   text,
   border,
-  borderColor,
-  background,
-  width,
-  height,
-  radius,
+
+  template,
 }) => {
+  const buttonTemplate = {
+    primary: "bg-[#F0BD2D] w-[104px] h-[36px] rounded-[24px] text-[#003B65]",
+    secondary:
+      "bg-[#FFFFFF] border-[#003B65] w-[104px] h-[36px] rounded-[24px] text-[#003B65]",
+  };
+
   return (
-    <button
-      className={`w-[${width}px] h-[${height}px] rounded-[${radius}px] border-${border} border-[${borderColor}] bg-[${background}] text-[${borderColor}]`}
-    >
+    <button className={` ${buttonTemplate[template]} border-${border}`}>
       {text}
     </button>
   );
