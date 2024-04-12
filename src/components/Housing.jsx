@@ -17,14 +17,14 @@ const Housing = () => {
           Secure your ideal home today with our housing solutions available.
         </p>
 
-        <div className="my-[43px] justify-between w-[464px]  mx-auto flex">
+        {/* <div className="my-[43px] justify-between w-[464px]  mx-auto flex">
           <HousingBtn text={"All"} border={1} template={"primary"} />
           <HousingBtn text={"Hostels"} border={2} template={"secondary"} />
           <HousingBtn text={"Lodges"} border={2} template={"secondary"} />
           <HousingBtn text={"Hotel"} border={2} template={"secondary"} />
-        </div>
+        </div> */}
 
-        <div className="flex justify-between w-[1107px] mx-auto">
+        <div className="flex justify-between w-[1107px] pt-10 mx-auto">
           <HousingCard
             cardImage={hotelImage1}
             star={star}

@@ -15,7 +15,7 @@ const HeroBanner = () => {
             tech skills, cross-skilling, and hands-on learning, ensuring a
             continuous pipeline of passionate talent in Nigeria.
           </p>
-          <Button btnText={"Explore"} />
+          <Button btnText={"Explore"} type={"heroBtn"} />
         </div>
 
         <div>

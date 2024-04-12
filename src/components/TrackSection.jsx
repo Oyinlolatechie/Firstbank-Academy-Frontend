@@ -55,7 +55,7 @@ const TrackSection = () => {
         </p>
 
         <div className=" mt-[32px] mb-[68px] text-center">
-          <Button btnText={"Learn More"} />
+          <Button btnText={"Learn More"} type={"trackBtn"} />
         </div>
       </div>
     </>

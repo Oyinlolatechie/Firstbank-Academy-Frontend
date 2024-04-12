@@ -1,5 +1,6 @@
 import firstBankLogo from "../assets/firstbank.svg";
 import searchIcon from "../assets/search.svg";
+import Button from "../components/ui/Button";
 
 const NavBar = () => {
   return (
@@ -25,7 +26,7 @@ const NavBar = () => {
             </div>
             <form action="/search" method="GET">
               <input
-                className="h-full w-[90%] italic border-none"
+                className="h-full w-[90%] italic border-none leading-10 tracking-wider px-2"
                 type="search"
                 name="navbar_search"
                 placeholder="Search..."
@@ -33,10 +34,7 @@ const NavBar = () => {
               />
             </form>
           </div>
-
-          <button className="w-[95px] h-[40px] bg-btnbg rounded-[20px] font-[600] text-primary">
-            Login
-          </button>
+          <Button btnText={"Login"} type={"navBtn"} />
         </div>
       </div>
     </>

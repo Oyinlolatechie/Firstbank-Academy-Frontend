@@ -4,7 +4,10 @@ import firstbank from "../assets/firstbank-building.png";
 const AboutUs = () => {
   return (
     <>
-      <div className="h-[598px] overflow-hidden bg-primary my-[100px] flex place-items-center">
+      <div
+        id={AboutUs}
+        className="h-[598px] overflow-hidden bg-primary my-[100px] flex place-items-center"
+      >
         <div className="w-[730px] ml-[98px] space-y-[32px]">
           <h2 className="text-[48px] font-bold text-[#FFFFFF] leading-[64px]">
             FirstBank Academy
@@ -18,7 +21,7 @@ const AboutUs = () => {
             infrastructure, and Data science.
           </p>
 
-          <Button btnText={"Read More"} />
+          <Button btnText={"Read More"} type={"aboutBtn"} />
         </div>
 
         <div className=" w-full  mt-[126px] ml-[-60px] ">
