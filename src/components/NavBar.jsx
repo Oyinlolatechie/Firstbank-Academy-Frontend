@@ -12,11 +12,49 @@ const NavBar = () => {
           <img className="w-full" src={firstBankLogo} alt="firstbank logo" />
         </div>
         <ul className="flex w-[30%] h-fit justify-between mr-[298px] font-medium text-primary">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Tracks</li>
-          <li>Gallery</li>
-          <li>FAQs</li>
+          <li>
+            <button
+              onClick={() => {
+                const homeRef = document.querySelector("#hero");
+                homeRef?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Home
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                const aboutRef = document.querySelector("#aboutUs");
+                aboutRef?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              About Us
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                const trackRef = document.querySelector("#tracks");
+                trackRef.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Tracks
+            </button>
+          </li>
+          <li>
+            <a href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <button
+              onClick={() => {
+                const faqRef = document.querySelector("#faq");
+                faqRef.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              FAQs
+            </button>
+          </li>
         </ul>
 
         <div className="flex">

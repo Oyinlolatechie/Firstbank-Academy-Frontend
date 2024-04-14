@@ -1,11 +1,14 @@
+import { useRef } from "react";
 import Button from "./ui/Button";
 import firstbank from "../assets/firstbank-building.png";
 
 const AboutUs = () => {
+  const aboutRef = useRef(null);
   return (
     <>
       <div
-        id={AboutUs}
+        ref={aboutRef}
+        id="aboutUs"
         className="h-[598px] overflow-hidden bg-primary my-[100px] flex place-items-center"
       >
         <div className="w-[730px] ml-[98px] space-y-[32px]">
