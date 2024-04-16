@@ -21,14 +21,14 @@ const Attendance = () => {
           <img src={phone} alt="mockup of three phone images" />
         </div>
 
-        <div className="flex justify-center py-14">
-          <button className="bg-[#F0BD2D] font-[600] text-[14px] w-[307px] h-[40px] rounded-[20px] flex justify-center items-center mr-4">
+        <div className="flex w-[594px] mx-auto justify-between py-14">
+          <button className="bg-[#F0BD2D] hover:bg-primary hover:text-[#F0BC26] font-[600] text-[14px] w-[307px] h-[40px] rounded-[20px] flex justify-center items-center mr-4">
             <span>
-              <img src={playstore} alt="" />
+              <img className="pr-2" src={playstore} alt="" />
             </span>
             Download on Google Play Store
           </button>
-          <button className="border-2 border-[#0000008F] text-[#000000] w-[231px] h-[40px] rounded-[20px] ">
+          <button className="border-2 hover:border-primary border-[#0000008F] text-[#000000] hover:text-[#F0BD2D] w-[231px]  h-[40px] rounded-[20px] ">
             Download on Apple Store
           </button>
         </div>
