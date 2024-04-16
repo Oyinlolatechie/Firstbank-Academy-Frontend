@@ -10,15 +10,19 @@ const TrackSection = () => {
   const trackRef = useRef(null);
   return (
     <>
-      <div ref={trackRef} id="tracks" className="py-[100px] px-[12%]">
-        <h2 className="text-[48px] text-center font-bold w-[700px] mx-auto text-primary">
+      <div
+        ref={trackRef}
+        id="tracks"
+        className="py-[50px] md:py-[100px] px-3 md:px-[12%]"
+      >
+        <h2 className="text-[34px] md:text-[48px] leading-10 md:leading-[67.2px] text-center font-bold max-w-[700px] mx-auto text-primary">
           Learn in-demand skills from the Academy
         </h2>
-        <p className="text-center pt-[32px] font-normal text-[20px] leading-[28.8px] tracking-[1%] text-[#000000AD]">
+        <p className="text-center pt-5 md:pt-[32px] md:text-[20px] md:leading-[28.8px] tracking-[1px] text-[#000000AD]">
           Acquire sought-after skills at the Academy for an incredible journey.
         </p>
 
-        <div className="flex justify-between ">
+        <div className="md:flex justify-between ">
           <Card
             picture={data}
             trackName={"Data Analysis"}
