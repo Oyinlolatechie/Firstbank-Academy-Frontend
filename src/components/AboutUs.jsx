@@ -9,13 +9,13 @@ const AboutUs = () => {
       <div
         ref={aboutRef}
         id="aboutUs"
-        className="h-[598px] overflow-hidden bg-primary my-[100px] flex place-items-center"
+        className="md:max-h-[598px] w-screen overflow-hidden bg-primary my-[50px] md:my-[100px] py-[10px] md:flex place-items-center"
       >
-        <div className="w-[730px] ml-[98px] space-y-[32px]">
-          <h2 className="text-[48px] font-bold text-[#FFFFFF] leading-[64px]">
+        <div className="w-fit md:max-w-[730px] ml-5 md:ml-[30px] lg:ml-[98px] space-y-[24px] md:space-y-[32px]">
+          <h2 className="text-[34px] md:text-[48px] font-bold text-[#FFFFFF] leading-[64px]">
             FirstBank Academy
           </h2>
-          <p className="text-[16px] w-[700px] text-[#FFFFFF] leading-[32px] font-normal">
+          <p className="text-[14px] md:text-[16px] max-w-[700px] text-[#FFFFFF] leading-[26px] md:leading-[32px] font-normal">
             The FirstBank Technology Academy is an arm of the FirstBank
             Corporate University that was designed to drive upskilling, cross
             skilling, and hands-on learning of our tech talents. The Academy
@@ -27,7 +27,7 @@ const AboutUs = () => {
           <Button btnText={"Read More"} type={"aboutBtn"} />
         </div>
 
-        <div className=" w-full  mt-[126px] ml-[-60px] ">
+        <div className="hidden w-max md:block lg:mt-[126px] lg:ml-[-60px] ">
           <img src={firstbank} alt="firstbank academy building" />
         </div>
       </div>
