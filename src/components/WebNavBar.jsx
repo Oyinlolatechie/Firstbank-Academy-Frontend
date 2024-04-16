@@ -1,15 +1,15 @@
 import firstBankLogo from "../assets/firstbank.svg";
 import searchIcon from "../assets/search.svg";
-import Button from "../components/ui/Button";
+import Button from "./ui/Button";
 
-const WebMenu = () => {
+const WebNavBar = () => {
   return (
     <div className="hidden md:block">
-      <div className="w-full border-b-2 border-[#0000003B] bg-[#FFFFFF] flex px-[100px] h-[100px] place-items-center">
-        <div className="w-[105px] mr-[110px]">
+      <div className="w-screen border-b-2 border-[#0000003B] flex justify-between md:px-[50px] lg:px-[100px] h-[100px] place-items-center">
+        <div className="md:w-[105px]">
           <img className="w-full" src={firstBankLogo} alt="firstbank logo" />
         </div>
-        <ul className="flex w-[30%] h-fit justify-between mr-[298px] font-medium text-primary">
+        <ul className="flex md:w-[50%] lg:w-[35%] h-fit justify-between font-medium text-primary">
           <li>
             <button
               onClick={() => {
@@ -56,7 +56,7 @@ const WebMenu = () => {
         </ul>
 
         <div className="flex">
-          <div className="flex border-[1px] border-[#002855B2] rounded-[20px] w-[234px] h-[40px] px-2 mr-[43px]">
+          <div className="md:hidden lg:flex border-[1px] border-[#002855B2] rounded-[20px] w-[234px] h-[40px] px-2 mr-[43px]">
             <div className="w-[26px] pt-[10px] pr-2">
               <img className="w-full" src={searchIcon} alt="search icon" />
             </div>
@@ -77,4 +77,4 @@ const WebMenu = () => {
   );
 };
 
-export default WebMenu;
+export default WebNavBar;
