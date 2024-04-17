@@ -1,10 +1,11 @@
-import React from "react";
+import { useRef } from "react";
 import Accordion from "./Accordion";
 
 const FAQ = () => {
+  const faqRef = useRef(null);
   return (
     <>
-      <div id="faq" className="w-[747px] mx-auto space-y-6 pb-10">
+      <div ref={faqRef} id="faq" className="w-[747px] mx-auto space-y-6 pb-10">
         <h2 className="font-bold text-center text-5xl text-[#182233]">FAQ</h2>
         <p className="text-center text-lg font-normal text-[#000000AD]">
           Some frequently asked questions at the academy

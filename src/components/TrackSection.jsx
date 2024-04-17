@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import Button from "./ui/Button";
 import Card from "./ui/Card";
 import data from "../assets/data-analysis.png";
@@ -6,9 +7,10 @@ import software from "../assets/software-engineering.png";
 import infra from "../assets/infrastructure.png";
 
 const TrackSection = () => {
+  const trackRef = useRef(null);
   return (
     <>
-      <div id="tracks" className="py-[100px] px-[12%]">
+      <div ref={trackRef} id="tracks" className="py-[100px] px-[12%]">
         <h2 className="text-[48px] text-center font-bold w-[700px] mx-auto text-primary">
           Learn in-demand skills from the Academy
         </h2>

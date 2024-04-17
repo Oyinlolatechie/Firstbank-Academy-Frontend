@@ -1,10 +1,9 @@
+import { useRef } from "react";
 import Button from "./ui/Button";
 import firstbank from "../assets/firstbank-building.png";
-import { useRef } from "react";
 
 const AboutUs = () => {
   const aboutRef = useRef(null);
-
   return (
     <>
       <div
