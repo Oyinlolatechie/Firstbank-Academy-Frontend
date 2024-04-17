@@ -4,6 +4,7 @@ import FAQ from "../../components/FAQ";
 import TrackSection from "../../components/TrackSection";
 import Attendance from "../../components/Attendance";
 import Housing from "../../components/Housing";
+import Gallery from "../../components/Gallery";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <TrackSection />
       <Attendance />
       <Housing />
+      <Gallery />
       <FAQ />
     </>
   );
