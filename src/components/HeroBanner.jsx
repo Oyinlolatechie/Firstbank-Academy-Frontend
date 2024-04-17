@@ -9,11 +9,11 @@ const HeroBanner = () => {
       <div
         ref={heroRef}
         id="hero"
-        className="flex px-[120px] py-[60px] justify-between"
+        className="w-screen flex px-[20px] md:px-[30px] lg:px-[120px] py-[20px] sm:pt-[60px] justify-between"
       >
         <div className=" w-[560px]">
           <h2 className="text-[56px] text-h2bg font-medium leading-[72px] py-[10px]">
-            Welcome to <br />
+            Welcome to <br className="lg:block hidden" />
             FirstBank Technology Academy
           </h2>
           <p className="text-base text-pbg leading-[32px] pb-[24px]">
@@ -24,7 +24,7 @@ const HeroBanner = () => {
           <Button btnText={"Explore"} type={"heroBtn"} />
         </div>
 
-        <div>
+        <div className="hidden sm:block">
           <img src={heroVector} alt="vector of diverse shapes" />
         </div>
       </div>
