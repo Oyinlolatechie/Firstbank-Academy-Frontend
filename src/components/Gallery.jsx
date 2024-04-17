@@ -14,11 +14,15 @@ import Gallery2 from "../assets/Gallery2.png";
 import Gallery3 from "../assets/Gallery3.png";
 import Gallery4 from "../assets/Gallery4.png";
 
-
 const Gallery = () => {
+  const galleryRef = useRef(null);
   return (
     <>
-      <div className="w-[956px] mx-auto flex flex-col justify-center items-center space-y-6 my-20">
+      <div
+        ref={galleryRef}
+        id="gallery"
+        className="w-[956px] mx-auto flex flex-col justify-center items-center space-y-6 my-20"
+      >
         <h2 className="font-bold text-center text-5xl text-[#182233]">
           Gallery
         </h2>

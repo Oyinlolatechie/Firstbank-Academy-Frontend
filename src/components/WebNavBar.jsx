@@ -41,7 +41,14 @@ const WebNavBar = () => {
             </button>
           </li>
           <li>
-            <a href="#gallery">Gallery</a>
+            <button
+              onClick={() => {
+                const homeRef = document.querySelector("#gallery");
+                homeRef?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Gallery
+            </button>
           </li>
           <li>
             <button
