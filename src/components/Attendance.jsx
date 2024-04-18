@@ -4,7 +4,7 @@ import playstore from "../assets/playstore.svg";
 const Attendance = () => {
   return (
     <>
-      <div className="bg-[#FFFFFF] px-4">
+      <div className="bg-[#FFFFFF] w-screen px-4">
         <h2 className="font-[700] text-[42px] md:text-[48px] text-primary text-center md:max-w-[398px] md:mx-auto leading-[46px] md:leading-[57.6px]">
           Get the Academy Attendance App
         </h2>
