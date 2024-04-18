@@ -13,7 +13,7 @@ const HomePage = () => {
       <AboutUs />
       <TrackSection />
       <Attendance />
-      {/* <Housing /> */}
+      <Housing />
       {/* <Gallery /> */}
       {/* <FAQ /> */}
     </>
