@@ -57,7 +57,7 @@ const Housing = () => {
 
   return (
     <>
-      <div className="text-center py-14 pl-5">
+      <div className="text-center py-14 ">
         <h2 className=" text-[42px] md:text-[48px] text-primary font-[700] leading-[48px] w-fit mx-auto">
           Housing & Accommodation
         </h2>
@@ -65,7 +65,7 @@ const Housing = () => {
           Secure your ideal home today with our housing solutions available.
         </p>
 
-        <div className="max-w-[1107px] pt-10 mx-auto">
+        <div className="max-w-[1107px] pt-10 pl-10 md:pl-24 mx-auto">
           <Slider {...settings}>
             <HousingCard
               cardImage={hotelImage1}

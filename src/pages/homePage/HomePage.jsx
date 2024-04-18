@@ -14,8 +14,8 @@ const HomePage = () => {
       <TrackSection />
       <Attendance />
       <Housing />
-      <Gallery />
-      <FAQ />
+      {/* <Gallery /> */}
+      {/* <FAQ /> */}
     </>
   );
 };
