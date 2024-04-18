@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <>
       <HeroBanner />
-      {/* <AboutUs /> */}
+      <AboutUs />
       {/* <TrackSection /> */}
       {/* <Attendance /> */}
       {/* <Housing /> */}
