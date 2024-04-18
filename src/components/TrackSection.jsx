@@ -67,7 +67,7 @@ const TrackSection = () => {
           Acquire sought-after skills at the Academy for an incredible journey.
         </p>
 
-        <div className=" pl-12 md:pl-0 lg:pl-20">
+        <div className="pl-12 md:pl-0 lg:pl-20">
           <Slider {...settings}>
             <Card
               picture={data}
