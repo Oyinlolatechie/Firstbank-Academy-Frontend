@@ -18,7 +18,7 @@ const Attendance = () => {
           success and personal well-being.
         </p>
 
-        <div className="w-[98%] mx-auto">
+        <div className="w-[98%] md:w-fit mx-auto">
           <img src={phone} alt="mockup of three phone images" />
         </div>
 
