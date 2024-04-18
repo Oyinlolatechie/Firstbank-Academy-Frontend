@@ -18,8 +18,12 @@ const Attendance = () => {
           success and personal well-being.
         </p>
 
-        <div className="w-[98%] md:w-fit mx-auto">
-          <img src={phone} alt="mockup of three phone images" />
+        <div className="w-screen">
+          <img
+            className="max-w-[80%] mx-auto"
+            src={phone}
+            alt="mockup of three phone images"
+          />
         </div>
 
         <div className="md:flex md:w-[594px] md:mx-auto md:justify-between md:py-14">
