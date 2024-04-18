@@ -22,8 +22,8 @@ const Attendance = () => {
           <img src={phone} alt="mockup of three phone images" />
         </div>
 
-        <div className="md:flex w-[594px] mx-auto justify-between  md:py-14">
-          <button className="bg-[#F0BD2D] hover:bg-primary hover:text-[#F0BC26] my-3 font-[600] text-[14px] w-[307px] h-[40px] rounded-[20px] flex justify-center items-center mr-4">
+        <div className="md:flex w-[594px] mx-auto justify-between md:py-14">
+          <button className="bg-[#F0BD2D] hover:bg-primary hover:text-[#F0BC26] my-3 md:my-0 font-[600] text-[14px] w-[307px] h-[40px] rounded-[20px] flex justify-center items-center mr-4">
             <span>
               <img className="pr-2" src={playstore} alt="" />
             </span>
