@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div
         ref={aboutRef}
         id="aboutUs"
-        className="md:max-h-[598px] w-screen overflow-hidden bg-primary my-[50px] md:my-[100px] py-[10px] md:flex place-items-center"
+        className="md:max-h-[598px] w-screen overflow-hidden bg-primary my-[60px] md:my-[100px] py-[10px] md:flex place-items-center"
       >
         <div className="w-fit md:max-w-[730px] ml-5 md:ml-[30px] lg:ml-[98px] space-y-[24px] md:space-y-[32px]">
           <h2 className="text-[34px] md:text-[48px] font-bold text-[#FFFFFF] leading-[64px]">

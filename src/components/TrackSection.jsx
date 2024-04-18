@@ -59,7 +59,7 @@ const TrackSection = () => {
 
   return (
     <>
-      <div ref={trackRef} id="tracks" className="py-[50px] md:py-[100px] px-3 ">
+      <div ref={trackRef} id="tracks" className="px-3 ">
         <h2 className="text-[34px] md:text-[48px] leading-10 md:leading-[67.2px] text-center font-bold max-w-[700px] mx-auto text-primary">
           Learn in-demand skills from the Academy
         </h2>
