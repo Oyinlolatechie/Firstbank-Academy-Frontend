@@ -65,7 +65,7 @@ const Housing = () => {
           Secure your ideal home today with our housing solutions available.
         </p>
 
-        <div className="w-screen pt-10 pl-10 md:pl-24 mx-auto">
+        <div className="max-w-[1107px] pt-10 pl-10 md:pl-24 mx-auto">
           <Slider {...settings}>
             <HousingCard
               cardImage={hotelImage1}
