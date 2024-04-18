@@ -67,7 +67,7 @@ const TrackSection = () => {
           Acquire sought-after skills at the Academy for an incredible journey.
         </p>
 
-        {/* <div className="pl-12 md:pl-0 lg:pl-20">
+        <div className="pl-12 md:pl-0 lg:pl-20">
           <Slider {...settings}>
             <Card
               picture={data}
@@ -98,7 +98,7 @@ const TrackSection = () => {
               }
             />
           </Slider>
-        </div> */}
+        </div>
 
         <p className="text-center text-[18px] text-[#000000AD] mx-auto font-[400] leading-[32px] md:px-[12%]">
           FirstBank Technology Academy, an avant-garde arm of the Corporate
