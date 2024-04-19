@@ -15,7 +15,7 @@ const HomePage = () => {
       <Attendance />
       <Housing />
       <Gallery />
-      {/* <FAQ /> */}
+      <FAQ />
     </>
   );
 };

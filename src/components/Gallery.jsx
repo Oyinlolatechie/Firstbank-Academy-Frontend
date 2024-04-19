@@ -65,15 +65,15 @@ const Gallery = () => {
         id="gallery"
         className="text-center mx-auto items-center py-14"
       >
-        <h2 className="font-bold w-fit text-[42px] md:text-5xl text-[#182233] mx-auto">
+        <h2 className="font-bold w-fit text-[42px] md:text-5xl text-primary mx-auto">
           Gallery
         </h2>
 
-        <p className="text-center font-normal text-[14px] lg:text-lg text-[#000000AD] my-5">
+        <p className="font-normal text-[18px] pl-8 md:text-lg text-[#000000AD] my-5">
           Explore the captivating world of art at the academy.
         </p>
 
-        <div className="max-w-[1226px] pt-10 pl-10 md:mx-auto mx-auto">
+        <div className="max-w-[1226px] pt-10 pl-8 md:mx-auto mx-auto">
             <Slider {...settings}>
                 <img src={Gallery3} className="px-2" />
                 <img src={Gallery2} className="px-2" />

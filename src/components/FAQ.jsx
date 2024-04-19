@@ -5,12 +5,12 @@ const FAQ = () => {
   const faqRef = useRef(null);
   return (
     <>
-      <div ref={faqRef} id="faq" className="w-[747px] mx-auto space-y-6 pb-10">
-        <h2 className="font-bold text-center text-5xl text-[#182233]">FAQ</h2>
-        <p className="text-center text-lg font-normal text-[#000000AD]">
+      <div ref={faqRef} id="faq" className="md:w-[747px] mx-auto space-y-6 pb-10 text-center">
+        <h2 className="w-fit font-bold text-center text-[42px] md:text-5xl text-primary mx-auto">FAQ</h2>
+        <p className="text-center text-[18px] pl-8 md:text-lg font-normal text-[#000000AD]">
           Some frequently asked questions at the academy
         </p>
-        <div className="p-4 px-10 space-y-3 ">
+        <div className="p-2 px-6 space-y-3 md:p-4 md:px-10">
           <Accordion
             question="What is First Academy all about?"
             answer="First Academy is an arm of the FirstBank Corporate University that 
