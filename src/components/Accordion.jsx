@@ -8,7 +8,7 @@ const Accordion = ({ question, answer }) => {
             <div className=" text-[#000000AD] rounded bg-[#F8F9F9] p-4">
                 <button 
                     onClick={() => setAccordionOpen(!accordionOpen)}
-                    className="flex justify-between md:w-full w-[400px]"
+                    className="flex justify-between md:w-full w-[370px]"
                 >
                     <span className="font-bold">{question}</span>
                     {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
