@@ -58,7 +58,6 @@ body {
   width: 120px;
   height: 30px;
   z-index: 3;
-  right: 10px;
 }
 
 .slick-slider .slick-prev {
@@ -75,5 +74,6 @@ body {
 .slick-dots li button:before {
   margin-top: -50px;
   font-size: 14px;
-  color: #003b65;
+  color: #ce9b00;
+  /* color: #003b65; */
 }
