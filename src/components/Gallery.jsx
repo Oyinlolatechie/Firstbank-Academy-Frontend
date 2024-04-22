@@ -13,6 +13,10 @@ import Gallery1 from "../assets/Gallery1.png";
 import Gallery2 from "../assets/Gallery2.png";
 import Gallery3 from "../assets/Gallery3.png";
 import Gallery4 from "../assets/Gallery4.png";
+import FBTA1 from "../assets/FBTA_SPORT_DAY2-28.png"
+import FBTA2 from "../assets/FBTA_SPORT_DAY2-30.png"
+import FBTA3 from "../assets/FBTA_SPORT_DAY4-23 2.png"
+import FBTA4 from "../assets/FBTA_SPORT_DAY4-11.png"
 
 import Slider from "react-slick";
 
@@ -75,10 +79,10 @@ const Gallery = () => {
 
         <div className="max-w-[1226px] pt-10 pl-8 md:mx-auto mx-auto">
             <Slider {...settings}>
-                <img src={Gallery3} className="px-2" />
-                <img src={Gallery2} className="px-2" />
-                <img src={Gallery3} className="px-2" />
-                <img src={Gallery2} className="px-2" />
+                <img src={FBTA1} className="px-2 size-80" />
+                <img src={FBTA2} className="px-2 size-80" />
+                <img src={FBTA3} className="px-2 size-80" />
+                <img src={FBTA4} className="px-2 size-80" />
             </Slider>
         </div>
       </div>
